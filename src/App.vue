@@ -2,6 +2,8 @@
 import AppNavbar from "./components/AppNavbar.vue";
 import AppContentSection from "./components/AppContentSection.vue";
 import AppIconSection from "./components/AppIconSection.vue";
+import AppLinkSection from "./components/AppLinkSection.vue";
+import AppFooter from "./components/AppFooter.vue";
 
 export default {
   data() {
@@ -12,6 +14,8 @@ export default {
     AppNavbar,
     AppContentSection,
     AppIconSection,
+    AppLinkSection,
+    AppFooter,
   },
 };
 </script>
@@ -21,6 +25,8 @@ export default {
     <AppNavbar></AppNavbar>
     <AppContentSection></AppContentSection>
     <AppIconSection></AppIconSection>
+    <AppLinkSection></AppLinkSection>
+    <AppFooter></AppFooter>
   </div>
 </template>
 
