@@ -34,15 +34,10 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@mixin containerCentered($bgcolor, $maxwidth) {
-  max-width: $maxwidth;
-  background-color: $bgcolor;
-  margin: 0 auto;
-  padding: 0 0.5em;
-}
+@import "../style.scss";
 
 #navbar-container {
-  @include containerCentered(ffffff, 1200px);
+  @include containerCentered(1200px);
 
   .img-container {
     padding: 1em 0;

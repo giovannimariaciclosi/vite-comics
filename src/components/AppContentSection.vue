@@ -7,18 +7,22 @@ export default {
 </script>
 
 <template>
-  <div id="section-container">Content goes here</div>
+  <div id="main-container">
+    <div id="container-centered">Content goes here</div>
+  </div>
 </template>
 
 <style lang="scss" scoped>
-@mixin containerCentered($bgcolor, $maxwidth) {
-  max-width: $maxwidth;
-  background-color: $bgcolor;
-  margin: 0 auto;
-  padding: 0 0.5em;
-}
+@import "../style.scss";
 
-#section-container {
-  @include containerCentered(#1c1c1c, 1200px);
+#main-container {
+  background-color: #1c1c1c;
+  color: white;
+
+  #container-centered {
+    @include containerCentered(1200px);
+    font-size: 2em;
+    padding: 2em 0;
+  }
 }
 </style>
