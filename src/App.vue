@@ -1,5 +1,6 @@
 <script>
 import AppNavbar from "./components/AppNavbar.vue";
+import AppContentSection from "./components/AppContentSection.vue";
 
 export default {
   data() {
@@ -8,6 +9,7 @@ export default {
 
   components: {
     AppNavbar,
+    AppContentSection,
   },
 };
 </script>
@@ -15,6 +17,7 @@ export default {
 <template>
   <div>
     <AppNavbar></AppNavbar>
+    <AppContentSection></AppContentSection>
   </div>
 </template>
 

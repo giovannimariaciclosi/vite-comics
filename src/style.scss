@@ -23,3 +23,10 @@
 ul {
   list-style-type: none;
 }
+
+@mixin containerCentered($bgcolor, $maxwidth) {
+  max-width: $maxwidth;
+  background-color: $bgcolor;
+  margin: 0 auto;
+  padding: 0 0.5em;
+}
