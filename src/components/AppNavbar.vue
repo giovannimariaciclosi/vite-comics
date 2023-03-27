@@ -20,10 +20,7 @@ export default {
 </script>
 
 <template>
-  <div
-    id="navbar-container"
-    class="d-flex justify-content-between align-items-center"
-  >
+  <div id="navbar-container" class="d-flex justify-content-between align-items-center">
     <div class="img-container">
       <img src="/img/dc-logo.png" alt="DC Logo" />
     </div>
@@ -47,5 +44,32 @@ export default {
 ul {
   gap: 20px;
   font-weight: bold;
+
+  li {
+    cursor: pointer;
+    position: relative;
+
+    &:hover::after {
+      content: "";
+      height: 6px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 74px;
+      width: 100%;
+      background: #0282f9;
+    }
+
+    &:active::after {
+      content: "";
+      height: 6px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 74px;
+      width: 100%;
+      background: #0282f9;
+    }
+  }
 }
 </style>
