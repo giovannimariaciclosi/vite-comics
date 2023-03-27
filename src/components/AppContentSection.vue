@@ -135,6 +135,10 @@ export default {
       padding: 0.8em 5em;
       margin-top: 2em;
       font-size: .8em;
+
+      &:hover {
+        opacity: 0.8;
+      }
     }
   }
 }

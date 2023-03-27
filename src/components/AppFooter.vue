@@ -47,6 +47,10 @@ export default {
       background-color: transparent;
       border: 2px solid #0282f9;
       font-weight: bold;
+
+      &:hover {
+        background-color: #0282f9;
+      }
     }
 
     .social {
