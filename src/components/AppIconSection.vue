@@ -54,6 +54,7 @@ export default {
     gap: 40px;
     justify-content: center;
   }
+
   .card-container {
     display: flex;
     align-items: center;
@@ -64,8 +65,6 @@ export default {
       max-width: 50px;
     }
 
-    .card-text {
-    }
   }
 }
 </style>

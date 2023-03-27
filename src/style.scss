@@ -29,3 +29,13 @@ ul {
   margin: 0 auto;
   padding: 0 0.5em;
 }
+
+@mixin button($color) {
+  background-color: $color;
+  padding: 0.5em 1.5em;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0;
+}
