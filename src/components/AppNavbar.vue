@@ -49,6 +49,10 @@ ul {
     cursor: pointer;
     position: relative;
 
+    &:hover {
+      color: #0282f9;
+    }
+
     &:hover::after {
       content: "";
       height: 6px;
