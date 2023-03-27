@@ -27,6 +27,7 @@ export default {
   background-color: #1c1c1c;
   padding-top: 2em;
   border: none;
+  cursor: pointer;
 
 
   .thumb {

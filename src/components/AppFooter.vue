@@ -16,10 +16,7 @@ export default {
 
 <template>
   <div id="main-container">
-    <div
-      id="container-centered"
-      class="d-flex justify-content-between align-items-center"
-    >
+    <div id="container-centered" class="d-flex justify-content-between align-items-center">
       <button>SIGN-UP NOW!</button>
       <div class="social">
         <div class="social-text">FOLLOW US</div>
@@ -33,6 +30,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "../style.scss";
+
 #main-container {
   background-color: #303030;
   color: white;
@@ -64,6 +62,7 @@ export default {
       .social-icon-container {
         display: flex;
         gap: 15px;
+        cursor: pointer;
 
         img {
           max-width: 30px;

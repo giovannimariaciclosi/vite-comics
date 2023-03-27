@@ -125,6 +125,10 @@ export default {
         color: #959595;
         padding-bottom: 0.6em;
         font-size: 0.8em;
+
+        li {
+          cursor: pointer;
+        }
       }
     }
   }

@@ -60,9 +60,11 @@ export default {
     align-items: center;
     gap: 10px;
     min-width: 190px;
+    cursor: pointer;
 
     img {
       max-width: 50px;
+      max-height: 50px;
     }
 
   }
